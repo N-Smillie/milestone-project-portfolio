@@ -9,13 +9,29 @@
 :root {
     --primary-font: 'Roboto serif', serif;
     --secondary-font: 'Quicksand', sans-serif;
-
+    --primary-color: #b3ccff;
+    --secondary-color: #262626;
+    --highlight-color: #0044cc;
 }
 
 body {
     font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 h1, h2, h3 {
     font-family: var(--primary-font);
+}
+
+/* Body */
+
+#hero {
+    display: block;
+    margin: auto;
+    max-height: 400px;
+    max-width: 400px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+
 }
