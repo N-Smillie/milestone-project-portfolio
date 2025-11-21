@@ -57,67 +57,61 @@
 
     <!-- Main content -->
     <main>
-  <section>
-    <div id="homepage" class="row justify-content-center">
+      <section>
+        <!-- added container class to wrap cards -->
+        <div class="container-xl">
+          <div id="homepage" class="row justify-content-center">
+            <div id="hero" class="col-12 col-xl-5 d-flex justify-content-center order-xl-2">
+              <img
+                id="hero-img"
+                src="assets/images/headshot.png"
+                class="img-fluid justify-content-center"
+                alt="Nathan Smillie"
+              />
+            </div>
 
-      <div
-        id="hero"
-        class="container col-12 col-xl-4 order-xl-2"
-      >
-        <img
-          id="hero-img"
-          src="assets/images/headshot.png"
-          class="img-fluid justify-content-center"
-          alt="Nathan Smillie"
-        />
-      </div>
+            <div
+              id="about"
+              class="card col-10 col-md-5 col-xl-3 my-4 mx-md-3 border-dark order-xl-1"
+            >
+              <div class="card-body">
+                <h5 class="card-title text-center">About Me</h5>
+                <p class="card-text">
+                  As a passionate web developer, I build clean, responsive, and
+                  user-focused digital experiences. I enjoy transforming ideas
+                  into intuitive interfaces through well-structured code and
+                  thoughtful design. With a strong commitment to quality and
+                  continuous learning, I thrive in environments that value
+                  creativity, collaboration, and problem-solving. I’m excited to
+                  apply my skills to meaningful projects and grow within a
+                  forward-thinking team.
+                </p>
+              </div>
+            </div>
 
-      <div
-        id="about"
-        class="card col-12 col-md-5 col-xl-3 my-4 mx-md-3 border-dark order-xl-1"
-      >
-        <div class="card-body">
-          <h5 class="card-title text-center">About Me</h5>
-          <p class="card-text">
-            As a passionate web developer, I build clean, responsive, and
-            user-focused digital experiences. I enjoy transforming ideas into
-            intuitive interfaces through well-structured code and thoughtful
-            design. With a strong commitment to quality and continuous
-            learning, I thrive in environments that value creativity,
-            collaboration, and problem-solving. I’m excited to apply my skills
-            to meaningful projects and grow within a forward-thinking team.
-          </p>
+            <div
+              id="qualifications"
+              class="card col-10 col-md-5 col-xl-3 my-4 mx-md-3 border-dark order-xl-3"
+            >
+              <div class="card-header text-center">Qualifications</div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  Level 5 Diploma in Web Application Development
+                </li>
+                <li class="list-group-item">
+                  Level 3 Diploma in Software Development
+                </li>
+                <li class="list-group-item">
+                  Proficient in HTML, CSS, JavaScript, and Bootstrap
+                </li>
+                <li class="list-group-item">A-Level Business Studies</li>
+                <li class="list-group-item">A-Level Mathematics</li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div
-        id="qualifications"
-        class="card col-12 col-md-5 col-xl-3 my-4 mx-md-3 border-dark order-xl-3"
-      >
-        <div class="card-header text-center">Qualifications</div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">
-            Level 5 Diploma in Web Application Development
-          </li>
-          <li class="list-group-item">
-            Level 3 Diploma in Software Development
-          </li>
-          <li class="list-group-item">
-            Proficient in HTML, CSS, JavaScript, and Bootstrap
-          </li>
-          <li class="list-group-item">
-            A-Level Business Studies
-          </li>
-          <li class="list-group-item">
-            A-Level Mathematics
-          </li>
-        </ul>
-      </div>
-
-    </div>
-  </section>
-</main>
-
+      </section>
+    </main>
 
     <!-- Bootstrap JS -->
     <script

@@ -44,5 +44,10 @@ h1 {
 }
 
 
-/* Media Queries */
 
+/* Media Queries */
+@media screen and (min-width: 1200px) {
+  section {
+    margin-top: 4rem;
+  }
+}
