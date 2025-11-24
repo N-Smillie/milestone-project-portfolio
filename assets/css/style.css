@@ -32,6 +32,9 @@ h1 {
 
 /* Body */
 
+header {
+    margin-bottom: 20px;
+}
 
 #hero-img {
     display: block;
@@ -43,11 +46,23 @@ h1 {
 
 }
 
-
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
 
 /* Media Queries */
+
+@media screen and (min-width: 768px) {
+  .card-img-top {
+    height: 180px;
+  }
+}
+
+
 @media screen and (min-width: 1200px) {
   section {
     margin-top: 4rem;
   }
+
 }
