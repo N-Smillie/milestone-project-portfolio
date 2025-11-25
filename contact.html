@@ -37,7 +37,9 @@
           <div class="navbar-nav ms-auto">
             <a class="nav-link" href="index.html">Home</a>
             <a class="nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+            <a class="nav-link active" aria-current="page" href="contact.html"
+              >Contact</a
+            >
           </div>
         </div>
       </div>
@@ -45,12 +47,51 @@
 
     <!-- Header -->
     <header class="container">
-      
+      <div class="text-center">
+        <h1 class="display-5">Contact</h1>
+      </div>
     </header>
 
     <!-- Main content -->
     <main>
-      
+      <section class="container">
+        <div class="row justify-content-center text-center">
+          <div id="contact-details" class="col-12 mb-5 mb-md-6">
+            <p>012 345 6789<br />nathan_smillie@email.com</p>
+            <div>
+              <a>Facebook</a>
+              <a>Twitter</a>
+              <a>Instagram</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-10 col-lg-8 mb-4">
+            <p>If you have any questions or ideas please feel free to leave your details and leave a message below so I can get in contact with you. I am always looking for new opportunites and projects to be part of!</p>
+            <form class="row g-3">
+              <div class="col-md-4">
+                <label for="full-name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="full-name" />
+              </div>
+              <div class="col-md-4">
+                <label for="phonenumber" class="form-label">Phone Number</label>
+                <input type="number" class="form-control" id="phonenumber" />
+              </div>
+              <div class="col-md-4">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="col-12">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary custom-button">
+                  Send
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Bootstrap JS -->
