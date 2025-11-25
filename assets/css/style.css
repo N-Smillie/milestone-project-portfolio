@@ -75,6 +75,11 @@ header {
   color: var(--primary-color);
 }
 
+.card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
 /* Media Queries */
 
 @media screen and (min-width: 768px) {
