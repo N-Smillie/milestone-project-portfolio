@@ -36,6 +36,15 @@ header {
     margin-bottom: 20px;
 }
 
+h1 {
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-weight: 200;
+  letter-spacing: 1.5px;
+}
+
 #hero-img {
     display: block;
     margin: auto;
