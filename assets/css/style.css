@@ -84,6 +84,8 @@ h2 {
 
 .card-body a.card-link {
     margin-top: auto; /* pushes link to bottom */
+    display: inline-block;
+    align-self: flex-start; /* stops link stretching to empty space */
 }
 
 .card-body a.card-link:hover {
